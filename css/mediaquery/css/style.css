@@ -1,0 +1,13 @@
+@media screen and (max-width:992px)
+{
+	.row 
+	{
+		display:block;
+	}
+	.col{
+		width:auto;
+	}
+	.row p{
+		font size:30px;
+	}
+}

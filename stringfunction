@@ -1,0 +1,7 @@
+<?php
+echo strrpos("i love php,i love php too","php");
+echo strpos("i love php,i love php too","php");
+echo strripos("I LOVE PHP,I LOVE PHP TOO","php");
+$str="Hello World.";
+print_r(explode(".",$str);
+?>

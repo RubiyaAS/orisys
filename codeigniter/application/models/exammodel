@@ -1,0 +1,16 @@
+<?php
+class exammodel extends CI_model{
+    public function data($email)
+{
+    
+    $this->db->select('id');
+    $this->db->from("prologin");
+    $this->db->where("email",$email);
+    return $this->db->get()->row('id');
+}
+public function encpass($pass)
+{
+    return password_hash($pass,PASSWORD_BCRYPT);
+}
+}
+

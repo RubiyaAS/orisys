@@ -1,0 +1,7 @@
+<?php
+class Mainmodel extends CI_model
+{
+
+}
+}
+?>
